@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manor"
+version = "2.0.0"
+description = "Python 3 commonly used tool library"
+readme = "README.md"
+license = {text = "Apache 2.0"}
+requires-python = ">=3.5"
+authors = [
+    {name = "monchickey", email = "monchickey@gmail.com"}
+]
+dependencies = [
+    "PyMySQL>=0.7.11",
+    "pyyaml>=3.11",
+    "xxhash>=1.2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/monchickey/manor-py"
+
+[tool.setuptools.packages.find]
+include = ["manor*"]
+exclude = ["tests*"]

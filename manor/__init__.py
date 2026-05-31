@@ -9,9 +9,9 @@ from .__version__ import __copyright__
 from .counter import Counter
 from .daemon import Daemon
 from .ftp_util import FTPUtil
-from monchickey.lru_cache import LRUCache
+from manor.lru_cache import LRUCache
 
-from monchickey import config_util
+from manor import config_util
 
 __all__ = (
     'add_stderr_logger',

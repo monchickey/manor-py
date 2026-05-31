@@ -1,0 +1,9 @@
+__title__ = 'manor'
+__description__ = 'Python 3 commonly used tool library'
+__url__ = 'https://github.com/monchickey/manor-py'
+__version__ = '2.0.0'
+__build__ = 0x020000
+__author__ = 'monchickey'
+__author_email__ = 'monchickey@gmail.com'
+__license__ = 'Apache 2.0'
+__copyright__ = 'Copyright 2019 monchickey'

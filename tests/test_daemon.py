@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-from monchickey import Daemon
+from manor import Daemon
 import time
 import sys
 q = 15
 class DaemonTest:
     def test(self):
-        print(q)
-        time.sleep(q)
+        while True:
+            print(f"Sleep for {q} seconds.")
+            time.sleep(q)
         # 以下编写其他更多业务逻辑
         # ...
         # ...

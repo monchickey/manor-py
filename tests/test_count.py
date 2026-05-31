@@ -3,7 +3,7 @@
 import threading
 import time
 
-from monchickey import Counter
+from manor import Counter
 # 单线程测试
 # i = {'a':3, 'b':4}
 # c = Counter(i)

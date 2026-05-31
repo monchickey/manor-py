@@ -1,1 +1,3 @@
 *.py[ocd]
+release
+*.tar.gz
